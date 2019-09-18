@@ -1,8 +1,12 @@
 // Input Elements
 const amountEl = document.getElementsByName('amount');
 const contributionEl = document.getElementsByName('contribution');
-const durationEl = document.getElementsByName('duration');
+// const durationEl = document.getElementsByName('duration');
+const durationEl = document.getElementsByName('slider');
 const interestEl = document.getElementsByName('interest');
+
+console.log(durationEl);
+
 
 // Result Elements
 const startingVal = document.querySelectorAll('.starting-val');
@@ -39,3 +43,5 @@ const calculate = () => {
 
 	displayResults(amount, duration, formatValue(totalContribution), formatValue(totalReturn), formatValue(finalBalance));
 }
+
+calculate();
