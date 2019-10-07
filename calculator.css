@@ -20,14 +20,14 @@ h1 {
 	letter-spacing: 2px;
 }
 
-h2{
+h2 {
 	font-size: 22px;
 	margin-left: 17%;
 	font-weight: lighter;
 	letter-spacing: 2px;
 }
 
-h3{
+h3 {
 	font-size: 22px;
 	margin-top: 24px;
 	margin-bottom: 15px;
@@ -68,14 +68,11 @@ input[type="submit"], button {
 	background-image: linear-gradient(to right, #382254 , #304757);
 	color: #818181;
 	outline-color: white;
-
 }
-
 
 ul {
   list-style-type: none;
 }
-
 
 input[type="number"],.currSymbol {
 	height: 40px;
@@ -145,8 +142,7 @@ INPUT[type=text], INPUT[type=number], input[type="date"], select {
 
 .starting-val,
 .contribution-val,
-.final-val
-{
+.final-val {
 	display: block;
 	background-color: #474157;
 	font-size: 12px;
@@ -191,8 +187,6 @@ img {
 	border-right: 2px solid #474157;
 	border-bottom: 2px solid #474157;
 }
-
-
 
 @media (min-width: 500px){
 	img {
